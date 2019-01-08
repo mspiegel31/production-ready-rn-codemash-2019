@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Button, TextInput, StyleSheet } from 'react-native';
 import { Link, withRouter } from 'react-router-native';
 
-export default class LoginScreen extends React.Component {
+class LoginScreen extends React.Component {
   state = {
     isLoggedIn: false,
     username: '',
@@ -29,10 +29,13 @@ export default class LoginScreen extends React.Component {
           onPress={() => this.handleSubmit()}
           title="Login"
         />
+        <Link to="/help"><Text>Help!</Text></Link>
       </View>
     );
   }  
 }
+
+export default withRouter(LoginScreen)
 
 const styles = StyleSheet.create({
   container: {

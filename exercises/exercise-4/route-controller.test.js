@@ -25,7 +25,7 @@ describe('<RouteController />', () => {
     describe('/', () => {
       it('renders the login screen', () => {
         const { getByText } = renderComponent('/');
-
+        
         getByText(/Login/);
       });
 
