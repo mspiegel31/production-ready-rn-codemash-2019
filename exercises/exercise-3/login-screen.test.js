@@ -5,7 +5,7 @@ import { Alert } from 'react-native';
 // To run tests in this file, run yarn test exercises/exercise-3 in your terminal.
 
 describe('<LoginScreen />', () => {
-  describe('1', () => {
+  xdescribe('1', () => {
     describe('when the login button is clicked', () => {
       it('opens an alert', () => {
         Alert.alert = jest.fn();
@@ -18,7 +18,7 @@ describe('<LoginScreen />', () => {
     });
   });
 
-  describe('2', () => {
+  xdescribe('2', () => {
     describe('when the login button is clicked', () => {
       it('logs the user in', () => {
         const { getByText } = render(<LoginScreen />);
