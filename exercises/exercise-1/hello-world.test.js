@@ -32,10 +32,10 @@ describe('helloWorld', () => {
   // --- 2 ---
   // Write a test like the above, but use your own name instead of CodeMash.
   describe('2', () => {
-    describe('when the name is ____', () => {
+    describe('when the name is bad', () => {
       it('says hello', () => {
         // Replace this line with your own expectation:
-        expect(false).toBe(true);
+        expect(helloWorld("bad")).toBe('Goodbye, World');
       });
     });
   });
