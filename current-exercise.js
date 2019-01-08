@@ -1,3 +1,3 @@
-const CURRENT_EXERCISE = 2;
+const CURRENT_EXERCISE = 3;
 
 export default CURRENT_EXERCISE;

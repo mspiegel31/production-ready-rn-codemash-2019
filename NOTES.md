@@ -11,3 +11,7 @@ lecture Slides: https://speakerdeck.com/tagraves/building-a-production-ready-rea
  - `root` (presenter company) has post-install scripts that modify `node_modules` (!!!)
 - Debugging
  - additional layer of abstraction between JavaScript and iOS makes things difficult
+
+ ## HTML DOM vs React native
+ - no HTML primitives
+ - you have `<Image/>`, `<View/>`, `<Text/>` etc.
